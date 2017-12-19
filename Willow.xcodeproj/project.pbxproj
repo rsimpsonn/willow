@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		397BE8711FE8A04B00ED952C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8701FE8A04B00ED952C /* AppDelegate.swift */; };
+		397BE8731FE8A04B00ED952C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8721FE8A04B00ED952C /* ViewController.swift */; };
+		397BE8761FE8A04B00ED952C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397BE8741FE8A04B00ED952C /* Main.storyboard */; };
+		397BE8791FE8A04B00ED952C /* Willow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8771FE8A04B00ED952C /* Willow.xcdatamodeld */; };
+		397BE87B1FE8A04B00ED952C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397BE87A1FE8A04B00ED952C /* Assets.xcassets */; };
+		397BE87E1FE8A04B00ED952C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397BE87C1FE8A04B00ED952C /* LaunchScreen.storyboard */; };
+		397BE8891FE8A04B00ED952C /* WillowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8881FE8A04B00ED952C /* WillowTests.swift */; };
+		397BE8941FE8A04B00ED952C /* WillowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8931FE8A04B00ED952C /* WillowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		397BE8851FE8A04B00ED952C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397BE8651FE8A04B00ED952C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397BE86C1FE8A04B00ED952C;
+			remoteInfo = Willow;
+		};
+		397BE8901FE8A04B00ED952C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 397BE8651FE8A04B00ED952C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 397BE86C1FE8A04B00ED952C;
+			remoteInfo = Willow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		397BE86D1FE8A04B00ED952C /* Willow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Willow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		397BE8701FE8A04B00ED952C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		397BE8721FE8A04B00ED952C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		397BE8751FE8A04B00ED952C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		397BE8781FE8A04B00ED952C /* Willow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Willow.xcdatamodel; sourceTree = "<group>"; };
+		397BE87A1FE8A04B00ED952C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		397BE87D1FE8A04B00ED952C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		397BE87F1FE8A04B00ED952C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397BE8841FE8A04B00ED952C /* WillowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WillowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		397BE8881FE8A04B00ED952C /* WillowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillowTests.swift; sourceTree = "<group>"; };
+		397BE88A1FE8A04B00ED952C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397BE88F1FE8A04B00ED952C /* WillowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WillowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		397BE8931FE8A04B00ED952C /* WillowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillowUITests.swift; sourceTree = "<group>"; };
+		397BE8951FE8A04B00ED952C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		397BE86A1FE8A04B00ED952C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE8811FE8A04B00ED952C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE88C1FE8A04B00ED952C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		397BE8641FE8A04B00ED952C = {
+			isa = PBXGroup;
+			children = (
+				397BE86F1FE8A04B00ED952C /* Willow */,
+				397BE8871FE8A04B00ED952C /* WillowTests */,
+				397BE8921FE8A04B00ED952C /* WillowUITests */,
+				397BE86E1FE8A04B00ED952C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		397BE86E1FE8A04B00ED952C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				397BE86D1FE8A04B00ED952C /* Willow.app */,
+				397BE8841FE8A04B00ED952C /* WillowTests.xctest */,
+				397BE88F1FE8A04B00ED952C /* WillowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		397BE86F1FE8A04B00ED952C /* Willow */ = {
+			isa = PBXGroup;
+			children = (
+				397BE8701FE8A04B00ED952C /* AppDelegate.swift */,
+				397BE8721FE8A04B00ED952C /* ViewController.swift */,
+				397BE8741FE8A04B00ED952C /* Main.storyboard */,
+				397BE87A1FE8A04B00ED952C /* Assets.xcassets */,
+				397BE87C1FE8A04B00ED952C /* LaunchScreen.storyboard */,
+				397BE87F1FE8A04B00ED952C /* Info.plist */,
+				397BE8771FE8A04B00ED952C /* Willow.xcdatamodeld */,
+			);
+			path = Willow;
+			sourceTree = "<group>";
+		};
+		397BE8871FE8A04B00ED952C /* WillowTests */ = {
+			isa = PBXGroup;
+			children = (
+				397BE8881FE8A04B00ED952C /* WillowTests.swift */,
+				397BE88A1FE8A04B00ED952C /* Info.plist */,
+			);
+			path = WillowTests;
+			sourceTree = "<group>";
+		};
+		397BE8921FE8A04B00ED952C /* WillowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				397BE8931FE8A04B00ED952C /* WillowUITests.swift */,
+				397BE8951FE8A04B00ED952C /* Info.plist */,
+			);
+			path = WillowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		397BE86C1FE8A04B00ED952C /* Willow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397BE8981FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "Willow" */;
+			buildPhases = (
+				397BE8691FE8A04B00ED952C /* Sources */,
+				397BE86A1FE8A04B00ED952C /* Frameworks */,
+				397BE86B1FE8A04B00ED952C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Willow;
+			productName = Willow;
+			productReference = 397BE86D1FE8A04B00ED952C /* Willow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		397BE8831FE8A04B00ED952C /* WillowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397BE89B1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowTests" */;
+			buildPhases = (
+				397BE8801FE8A04B00ED952C /* Sources */,
+				397BE8811FE8A04B00ED952C /* Frameworks */,
+				397BE8821FE8A04B00ED952C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397BE8861FE8A04B00ED952C /* PBXTargetDependency */,
+			);
+			name = WillowTests;
+			productName = WillowTests;
+			productReference = 397BE8841FE8A04B00ED952C /* WillowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		397BE88E1FE8A04B00ED952C /* WillowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 397BE89E1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowUITests" */;
+			buildPhases = (
+				397BE88B1FE8A04B00ED952C /* Sources */,
+				397BE88C1FE8A04B00ED952C /* Frameworks */,
+				397BE88D1FE8A04B00ED952C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				397BE8911FE8A04B00ED952C /* PBXTargetDependency */,
+			);
+			name = WillowUITests;
+			productName = WillowUITests;
+			productReference = 397BE88F1FE8A04B00ED952C /* WillowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		397BE8651FE8A04B00ED952C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Ryan Simpson";
+				TargetAttributes = {
+					397BE86C1FE8A04B00ED952C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D9K555TQ2K;
+						ProvisioningStyle = Automatic;
+					};
+					397BE8831FE8A04B00ED952C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D9K555TQ2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 397BE86C1FE8A04B00ED952C;
+					};
+					397BE88E1FE8A04B00ED952C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D9K555TQ2K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 397BE86C1FE8A04B00ED952C;
+					};
+				};
+			};
+			buildConfigurationList = 397BE8681FE8A04B00ED952C /* Build configuration list for PBXProject "Willow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 397BE8641FE8A04B00ED952C;
+			productRefGroup = 397BE86E1FE8A04B00ED952C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				397BE86C1FE8A04B00ED952C /* Willow */,
+				397BE8831FE8A04B00ED952C /* WillowTests */,
+				397BE88E1FE8A04B00ED952C /* WillowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		397BE86B1FE8A04B00ED952C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397BE87E1FE8A04B00ED952C /* LaunchScreen.storyboard in Resources */,
+				397BE87B1FE8A04B00ED952C /* Assets.xcassets in Resources */,
+				397BE8761FE8A04B00ED952C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE8821FE8A04B00ED952C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE88D1FE8A04B00ED952C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		397BE8691FE8A04B00ED952C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397BE8731FE8A04B00ED952C /* ViewController.swift in Sources */,
+				397BE8791FE8A04B00ED952C /* Willow.xcdatamodeld in Sources */,
+				397BE8711FE8A04B00ED952C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE8801FE8A04B00ED952C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397BE8891FE8A04B00ED952C /* WillowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BE88B1FE8A04B00ED952C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397BE8941FE8A04B00ED952C /* WillowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		397BE8861FE8A04B00ED952C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397BE86C1FE8A04B00ED952C /* Willow */;
+			targetProxy = 397BE8851FE8A04B00ED952C /* PBXContainerItemProxy */;
+		};
+		397BE8911FE8A04B00ED952C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 397BE86C1FE8A04B00ED952C /* Willow */;
+			targetProxy = 397BE8901FE8A04B00ED952C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		397BE8741FE8A04B00ED952C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397BE8751FE8A04B00ED952C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		397BE87C1FE8A04B00ED952C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				397BE87D1FE8A04B00ED952C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		397BE8961FE8A04B00ED952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		397BE8971FE8A04B00ED952C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		397BE8991FE8A04B00ED952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D9K555TQ2K;
+				INFOPLIST_FILE = Willow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..Willow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		397BE89A1FE8A04B00ED952C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D9K555TQ2K;
+				INFOPLIST_FILE = Willow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..Willow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		397BE89C1FE8A04B00ED952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D9K555TQ2K;
+				INFOPLIST_FILE = WillowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WillowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow.app/Willow";
+			};
+			name = Debug;
+		};
+		397BE89D1FE8A04B00ED952C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D9K555TQ2K;
+				INFOPLIST_FILE = WillowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WillowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Willow.app/Willow";
+			};
+			name = Release;
+		};
+		397BE89F1FE8A04B00ED952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D9K555TQ2K;
+				INFOPLIST_FILE = WillowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WillowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Willow;
+			};
+			name = Debug;
+		};
+		397BE8A01FE8A04B00ED952C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D9K555TQ2K;
+				INFOPLIST_FILE = WillowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..WillowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Willow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		397BE8681FE8A04B00ED952C /* Build configuration list for PBXProject "Willow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397BE8961FE8A04B00ED952C /* Debug */,
+				397BE8971FE8A04B00ED952C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		397BE8981FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "Willow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397BE8991FE8A04B00ED952C /* Debug */,
+				397BE89A1FE8A04B00ED952C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		397BE89B1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397BE89C1FE8A04B00ED952C /* Debug */,
+				397BE89D1FE8A04B00ED952C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		397BE89E1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				397BE89F1FE8A04B00ED952C /* Debug */,
+				397BE8A01FE8A04B00ED952C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		397BE8771FE8A04B00ED952C /* Willow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				397BE8781FE8A04B00ED952C /* Willow.xcdatamodel */,
+			);
+			currentVersion = 397BE8781FE8A04B00ED952C /* Willow.xcdatamodel */;
+			path = Willow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 397BE8651FE8A04B00ED952C /* Project object */;
+}
