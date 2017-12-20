@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392061B21FE98F2300E17221 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392061B11FE98F2300E17221 /* SpriteKit.framework */; };
+		392061B61FE992A800E17221 /* WillowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392061B51FE992A800E17221 /* WillowScene.swift */; };
+		3925E3181FEAF0BB00F06FD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3925E3171FEAF0BB00F06FD9 /* GoogleService-Info.plist */; };
+		3925E3191FEAF0BB00F06FD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3925E3171FEAF0BB00F06FD9 /* GoogleService-Info.plist */; };
+		3925E31A1FEAF0BB00F06FD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3925E3171FEAF0BB00F06FD9 /* GoogleService-Info.plist */; };
 		397BE8711FE8A04B00ED952C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8701FE8A04B00ED952C /* AppDelegate.swift */; };
 		397BE8731FE8A04B00ED952C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8721FE8A04B00ED952C /* ViewController.swift */; };
 		397BE8761FE8A04B00ED952C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397BE8741FE8A04B00ED952C /* Main.storyboard */; };
@@ -15,6 +20,10 @@
 		397BE87E1FE8A04B00ED952C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397BE87C1FE8A04B00ED952C /* LaunchScreen.storyboard */; };
 		397BE8891FE8A04B00ED952C /* WillowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8881FE8A04B00ED952C /* WillowTests.swift */; };
 		397BE8941FE8A04B00ED952C /* WillowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8931FE8A04B00ED952C /* WillowUITests.swift */; };
+		397BE8A21FE8EFCA00ED952C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397BE8A11FE8EFCA00ED952C /* ProfileViewController.swift */; };
+		53C924AA326BCDC7DD27F010 /* Pods_Willow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9D453ABF360287444DF166 /* Pods_Willow.framework */; };
+		5AC6F46ABBAB6E4BEB94F64D /* Pods_WillowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E177908032992D06E1CD3908 /* Pods_WillowTests.framework */; };
+		BFAB981B255F5105FBDE9E71 /* Pods_WillowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A96AE4E2B1ED482ABD9367A /* Pods_WillowUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		392061B11FE98F2300E17221 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		392061B51FE992A800E17221 /* WillowScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillowScene.swift; sourceTree = "<group>"; };
+		3925E3171FEAF0BB00F06FD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		397BE86D1FE8A04B00ED952C /* Willow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Willow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		397BE8701FE8A04B00ED952C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		397BE8721FE8A04B00ED952C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		397BE88F1FE8A04B00ED952C /* WillowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WillowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		397BE8931FE8A04B00ED952C /* WillowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WillowUITests.swift; sourceTree = "<group>"; };
 		397BE8951FE8A04B00ED952C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397BE8A11FE8EFCA00ED952C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3E9D453ABF360287444DF166 /* Pods_Willow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Willow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		408242AED220B551FF01951E /* Pods-Willow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Willow/Pods-Willow.release.xcconfig"; sourceTree = "<group>"; };
+		4C71F21E86B642E7EAB8A1E7 /* Pods-WillowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WillowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WillowTests/Pods-WillowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A96AE4E2B1ED482ABD9367A /* Pods_WillowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WillowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F08146E8E1548BC21D7669F /* Pods-WillowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WillowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WillowUITests/Pods-WillowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80B3DA8BB27C4BA3C7C585CA /* Pods-WillowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WillowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WillowUITests/Pods-WillowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6EC8A08E21D36CF8CACF0F4 /* Pods-Willow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Willow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Willow/Pods-Willow.debug.xcconfig"; sourceTree = "<group>"; };
+		DBD649E452369F037FEA6EDA /* Pods-WillowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WillowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WillowTests/Pods-WillowTests.release.xcconfig"; sourceTree = "<group>"; };
+		E177908032992D06E1CD3908 /* Pods_WillowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WillowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392061B21FE98F2300E17221 /* SpriteKit.framework in Frameworks */,
+				53C924AA326BCDC7DD27F010 /* Pods_Willow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC6F46ABBAB6E4BEB94F64D /* Pods_WillowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +95,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAB981B255F5105FBDE9E71 /* Pods_WillowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392061B01FE98F2300E17221 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				392061B11FE98F2300E17221 /* SpriteKit.framework */,
+				3E9D453ABF360287444DF166 /* Pods_Willow.framework */,
+				E177908032992D06E1CD3908 /* Pods_WillowTests.framework */,
+				5A96AE4E2B1ED482ABD9367A /* Pods_WillowUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		397BE8641FE8A04B00ED952C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				397BE8871FE8A04B00ED952C /* WillowTests */,
 				397BE8921FE8A04B00ED952C /* WillowUITests */,
 				397BE86E1FE8A04B00ED952C /* Products */,
+				392061B01FE98F2300E17221 /* Frameworks */,
+				DD7B0E8CFD13CEBFAF07852A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +138,13 @@
 		397BE86F1FE8A04B00ED952C /* Willow */ = {
 			isa = PBXGroup;
 			children = (
+				3925E3171FEAF0BB00F06FD9 /* GoogleService-Info.plist */,
 				397BE8701FE8A04B00ED952C /* AppDelegate.swift */,
 				397BE8721FE8A04B00ED952C /* ViewController.swift */,
 				397BE8741FE8A04B00ED952C /* Main.storyboard */,
 				397BE87A1FE8A04B00ED952C /* Assets.xcassets */,
+				397BE8A11FE8EFCA00ED952C /* ProfileViewController.swift */,
+				392061B51FE992A800E17221 /* WillowScene.swift */,
 				397BE87C1FE8A04B00ED952C /* LaunchScreen.storyboard */,
 				397BE87F1FE8A04B00ED952C /* Info.plist */,
 				397BE8771FE8A04B00ED952C /* Willow.xcdatamodeld */,
@@ -128,6 +170,19 @@
 			path = WillowUITests;
 			sourceTree = "<group>";
 		};
+		DD7B0E8CFD13CEBFAF07852A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6EC8A08E21D36CF8CACF0F4 /* Pods-Willow.debug.xcconfig */,
+				408242AED220B551FF01951E /* Pods-Willow.release.xcconfig */,
+				4C71F21E86B642E7EAB8A1E7 /* Pods-WillowTests.debug.xcconfig */,
+				DBD649E452369F037FEA6EDA /* Pods-WillowTests.release.xcconfig */,
+				80B3DA8BB27C4BA3C7C585CA /* Pods-WillowUITests.debug.xcconfig */,
+				7F08146E8E1548BC21D7669F /* Pods-WillowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397BE8981FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "Willow" */;
 			buildPhases = (
+				BEC0B029910AD37BB7514B4A /* [CP] Check Pods Manifest.lock */,
 				397BE8691FE8A04B00ED952C /* Sources */,
 				397BE86A1FE8A04B00ED952C /* Frameworks */,
 				397BE86B1FE8A04B00ED952C /* Resources */,
+				CB6D609D0FB1859FC0213A5C /* [CP] Embed Pods Frameworks */,
+				07F332D88D01F5479DE227BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397BE89B1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowTests" */;
 			buildPhases = (
+				43FF55720C230CEAFBBF9863 /* [CP] Check Pods Manifest.lock */,
 				397BE8801FE8A04B00ED952C /* Sources */,
 				397BE8811FE8A04B00ED952C /* Frameworks */,
 				397BE8821FE8A04B00ED952C /* Resources */,
+				D231604095D5C3A84F3E67CD /* [CP] Embed Pods Frameworks */,
+				A26B10EDE579AD53A8469252 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 397BE89E1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowUITests" */;
 			buildPhases = (
+				587C71ECA4F91C3BFBD839CD /* [CP] Check Pods Manifest.lock */,
 				397BE88B1FE8A04B00ED952C /* Sources */,
 				397BE88C1FE8A04B00ED952C /* Frameworks */,
 				397BE88D1FE8A04B00ED952C /* Resources */,
+				D25C82657C5B3B39D2EDC91A /* [CP] Embed Pods Frameworks */,
+				30633F793BA907416E5BAACB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				397BE87E1FE8A04B00ED952C /* LaunchScreen.storyboard in Resources */,
+				3925E3181FEAF0BB00F06FD9 /* GoogleService-Info.plist in Resources */,
 				397BE87B1FE8A04B00ED952C /* Assets.xcassets in Resources */,
 				397BE8761FE8A04B00ED952C /* Main.storyboard in Resources */,
 			);
@@ -248,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3925E3191FEAF0BB00F06FD9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,18 +321,173 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3925E31A1FEAF0BB00F06FD9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F332D88D01F5479DE227BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Willow/Pods-Willow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30633F793BA907416E5BAACB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WillowUITests/Pods-WillowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FF55720C230CEAFBBF9863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WillowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		587C71ECA4F91C3BFBD839CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WillowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26B10EDE579AD53A8469252 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WillowTests/Pods-WillowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC0B029910AD37BB7514B4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Willow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6D609D0FB1859FC0213A5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Willow/Pods-Willow-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Willow/Pods-Willow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D231604095D5C3A84F3E67CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WillowTests/Pods-WillowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25C82657C5B3B39D2EDC91A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WillowUITests/Pods-WillowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		397BE8691FE8A04B00ED952C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392061B61FE992A800E17221 /* WillowScene.swift in Sources */,
 				397BE8731FE8A04B00ED952C /* ViewController.swift in Sources */,
 				397BE8791FE8A04B00ED952C /* Willow.xcdatamodeld in Sources */,
+				397BE8A21FE8EFCA00ED952C /* ProfileViewController.swift in Sources */,
 				397BE8711FE8A04B00ED952C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,11 +636,15 @@
 		};
 		397BE8991FE8A04B00ED952C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6EC8A08E21D36CF8CACF0F4 /* Pods-Willow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D9K555TQ2K;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Willow/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com..Willow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -428,11 +653,16 @@
 		};
 		397BE89A1FE8A04B00ED952C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408242AED220B551FF01951E /* Pods-Willow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D9K555TQ2K;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Willow/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com..Willow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -441,6 +671,7 @@
 		};
 		397BE89C1FE8A04B00ED952C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C71F21E86B642E7EAB8A1E7 /* Pods-WillowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +687,7 @@
 		};
 		397BE89D1FE8A04B00ED952C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD649E452369F037FEA6EDA /* Pods-WillowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +703,7 @@
 		};
 		397BE89F1FE8A04B00ED952C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B3DA8BB27C4BA3C7C585CA /* Pods-WillowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = D9K555TQ2K;
@@ -485,6 +718,7 @@
 		};
 		397BE8A01FE8A04B00ED952C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F08146E8E1548BC21D7669F /* Pods-WillowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = D9K555TQ2K;
@@ -516,6 +750,7 @@
 				397BE89A1FE8A04B00ED952C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		397BE89B1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +759,7 @@
 				397BE89D1FE8A04B00ED952C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		397BE89E1FE8A04B00ED952C /* Build configuration list for PBXNativeTarget "WillowUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +768,7 @@
 				397BE8A01FE8A04B00ED952C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

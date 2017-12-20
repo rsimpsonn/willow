@@ -1,0 +1,6 @@
+framework module Pods_WillowTests {
+  umbrella header "Pods-WillowTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
