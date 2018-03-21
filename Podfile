@@ -7,6 +7,10 @@ target 'Willow' do
   # Pods for Willow
 	
 	pod ‘Firebase/Core’
+	pod ‘Firebase/Firestore’
+	pod ‘Firebase/Auth’
+	pod ‘Charts’
+	pod 'EFCountingLabel'
 
   target 'WillowTests' do
     inherit! :search_paths

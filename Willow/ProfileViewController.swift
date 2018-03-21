@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FirebaseFirestore
+import Firebase
 
 class ProfileViewController: UIViewController {
     
@@ -24,15 +26,37 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var editButton: UIButton!
     @IBOutlet weak var doneButton: UIButton!
     
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    
+    var db = Firestore.firestore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.goalOneLabel.text = globals.goalList["firstGoal"]
+        self.goalOneBox.text = globals.goalList["firstGoal"]
+        self.goalOneBox.placeholder = globals.goalList["firstGoal"]
+        self.goalTwoBox.text = globals.goalList["secondGoal"]
+        self.goalTwoBox.placeholder = globals.goalList["secondGoal"]
+        self.goalTwoLabel.text = globals.goalList["secondGoal"]
+        self.goalThreeLabel.text = globals.goalList["thirdGoal"]
+        self.goalThreeBox.text = globals.goalList["thirdGoal"]
+        self.goalThreeBox.placeholder = globals.goalList["thirdGoal"]
+        self.goalFourLabel.text = globals.goalList["fourthGoal"]
+        self.goalFourBox.text = globals.goalList["fourthGoal"]
+        self.goalFourBox.placeholder = globals.goalList["fourthGoal"]
+        self.nameLabel.text = globals.name
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+        super.touchesBegan(touches, with: event)
     }
     
     @IBAction func toggleHome(_ sender: Any) {
@@ -45,6 +69,12 @@ class ProfileViewController: UIViewController {
         self.goalThreeLabel.isHidden = true
         self.goalFourLabel.isHidden = true
         
+        UIView.animate(withDuration: 0.9, delay: 0, animations: { self.goalOneBox.alpha = 1
+            self.goalTwoBox.alpha = 1
+            self.goalThreeBox.alpha = 1
+            self.goalFourBox.alpha = 1
+        }, completion: nil)
+        
         self.goalOneBox.isHidden = false
         self.goalTwoBox.isHidden = false
         self.goalThreeBox.isHidden = false
@@ -56,6 +86,12 @@ class ProfileViewController: UIViewController {
     }
     
     @IBAction func pressDone(_ sender: Any) {
+        UIView.animate(withDuration: 0.9, delay: 0, animations: { self.goalOneBox.alpha = 0
+            self.goalTwoBox.alpha = 0
+            self.goalThreeBox.alpha = 0
+            self.goalFourBox.alpha = 0
+        }, completion: nil)
+        
         self.goalOneLabel.isHidden = false
         self.goalOneLabel.text = self.goalOneBox.text
         self.goalTwoLabel.isHidden = false
@@ -65,14 +101,32 @@ class ProfileViewController: UIViewController {
         self.goalFourLabel.isHidden = false
         self.goalFourLabel.text = self.goalFourBox.text
         
-        self.goalOneBox.isHidden = true
-        self.goalTwoBox.isHidden = true
-        self.goalThreeBox.isHidden = true
-        self.goalFourBox.isHidden = true
-        
         self.editButton.isHidden = false
         self.doneButton.isHidden = true
+        if goalOneBox.text != globals.goalList["firstGoal"] {
+            db.document("users/\(globals.uid)/goals/firstGoal").updateData(["description": self.goalOneBox.text as Any])
+        }
+        if (goalTwoBox.text != globals.goalList["secondGoal"]) {
+            db.document("users/\(globals.uid)/goals/secondGoal").updateData(["description": self.goalTwoBox.text as Any])
+        }
+        if (goalThreeBox.text != globals.goalList["thirdGoal"]) {
+            db.document("users/\(globals.uid)/goals/thirdGoal").updateData(["description": self.goalThreeBox.text as Any])
+        }
+        if (goalFourBox.text != globals.goalList["fourthGoal"]) {
+            db.document("users/\(globals.uid)/goals/fourthGoal").updateData(["description": self.goalFourBox.text as Any])
+        }
+        
     }
+    
+    @IBAction func logout(_ sender: Any) {
+        try! Auth.auth().signOut()
+        if let storyboard = self.storyboard {
+            let vc = storyboard.instantiateViewController(withIdentifier: "loginView")
+            self.present(vc, animated: false, completion: nil)
+        }
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -83,4 +137,4 @@ class ProfileViewController: UIViewController {
     }
     */
 
-}
+

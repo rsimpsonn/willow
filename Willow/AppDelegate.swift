@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UIApplication.shared.statusBarStyle = .lightContent
+        FirebaseApp.configure()
+        Auth.auth().addStateDidChangeListener { (auth, user) in
+            if let user = user {
+
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                
+                let initialViewController = storyboard.instantiateViewController(withIdentifier: "mainView")
+                
+                self.window?.rootViewController = initialViewController
+                self.window?.makeKeyAndVisible()
+            } else {
+                print("nobody signed in")
+            }
+        }
         // Override point for customization after application launch.
         return true
     }
